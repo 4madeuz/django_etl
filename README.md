@@ -1,5 +1,7 @@
 # Библиотека фильмов и сериалов
 
+-Агрегатор для фильмов, написан на Django
+
 -Реализована админ панель для управления сервисом
 
 -Загрузка из mysql базы данных в postgres
@@ -28,4 +30,4 @@ docker-compose exec -ti serv  python manage.py migrate
 
 docker-compose exec -ti cron python load_data.py для загрузки из sqllite
 
-cron etl с переносом постгрес срабатывает каждую минуту
+cron для триггера etl с переносом postgres срабатывает каждую минуту

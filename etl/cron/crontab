@@ -1,0 +1,3 @@
+# START CRON JOB
+* * * * *  /usr/local/bin/python /opt/app/etl.py >>/tmp/out.log 2>/tmp/err.log
+# END CRON JOB
